@@ -1,0 +1,34 @@
+body {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 0;
+  float: right;
+}
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.signin-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 20px 8px 20px;
+}
+.header {
+  float: right;
+  width: 100%;
+  border: 1px solid red;
+}
