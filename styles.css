@@ -27,8 +27,24 @@ li a:hover {
   border-radius: 3px;
   padding: 8px 20px 8px 20px;
 }
+.signin-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+}
 .header {
   float: right;
   width: 100%;
+}
+
+.main-area {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 50%;
   border: 1px solid red;
+}
+
+.logo-area {
+  margin-top: 130px;
 }
