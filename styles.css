@@ -42,9 +42,37 @@ li a:hover {
   text-align: center;
   margin: auto;
   width: 50%;
-  border: 1px solid red;
+  border: 1px solid white;
 }
 
 .logo-area {
   margin-top: 130px;
+}
+
+.searching span {
+  position: absolute;
+}
+
+.material-icons {
+  padding: 10px;
+  color: grey;
+  width: 20px;
+}
+
+.search-bar {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 1px #e3e3e3 solid;
+}
+
+button.search-options {
+  margin: 10px;
+  background-color: #f8f9fa;
+  color: black;
+  font-size: 11px;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 10px 8px 10px;
 }
