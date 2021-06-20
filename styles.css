@@ -6,6 +6,9 @@ ul {
   list-style-type: none;
   margin-right: 0;
   float: right;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
 li {
   display: inline-block;
@@ -17,8 +20,9 @@ li a {
   padding: 10px;
   text-decoration: none;
 }
-li a:hover {
+li:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 .signin-button {
   background-color: #4285f4;
@@ -62,6 +66,7 @@ li a:hover {
 .search-bar {
   width: 90%;
   padding: 10px;
+  padding-left: 30px;
   margin-bottom: 10px;
   border-radius: 30px;
   border: 1px #e3e3e3 solid;
@@ -75,4 +80,62 @@ button.search-options {
   border: none;
   border-radius: 3px;
   padding: 8px 10px 8px 10px;
+}
+
+button.search-options:hover {
+  cursor: pointer;
+  border: 1px #d9dce0 solid;
+}
+.lang {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+footer {
+  display: flex;
+  color: #d9dce0;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.country {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-bottom: 1px #d9dce0 solid;
+  width: 100%;
+  padding-left: 10px;
+}
+.bottom-row {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f2f2f2;
+  padding-right: 10px;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
+}
+.FAQ {
+  flex-grow: 1;
+  padding: 0;
+}
+.info {
+  flex-grow: 2;
+  padding: 0;
+}
+.info1 {
+  padding-right: 20px;
+}
+.FAQ1 {
+  padding-right: 20px;
 }
